@@ -29,9 +29,9 @@
         "Dinis: merge work/factory.a-org-apply-scoped (2d7e861)",
         "Dinis: re-enable Org apply",
         "Dinis's word to push 11fd0a3 to dev",
-        "Content: running crm.dev.a's build script in a.factory's session was refused by its permission guard; crm.dev.a builds and commits it, or Dinis allows it"
+        "Content: crm.dev.a builds and commits it once the repository exists (its first commit adds only site/keys/crm.dev.a.json); running its build script in a.factory's session was refused by the permission guard"
       ],
-      "content": "AgentiCCells__Cell__Email work/crm.dev.a 8217885, crm/ (built by crm/scripts/build-site.mjs), with the Email Cell's src/app/pki.js and vendor/{sg-vault,pki,jsqr}"
+      "content": "AgentiCCells__Cell__Email work/crm.dev.a 5e8b869, crm/ (crm/site, crm/model, crm/scripts identical to 8217885), built by crm/scripts/build-site.mjs; the Email Cell's src/app/pki.js and vendor/{sg-vault,pki,jsqr} with VENDOR.json pins, byte-identical at dev 189ac49 (crm.dev.a, 24 Nov 11:48 UTC)"
     },
     {
       "id": "F-A8",
