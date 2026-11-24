@@ -1,6 +1,6 @@
 {
   "about": "Every repository request a.factory holds, with its R4 chain: a maestro's brief, a sites review, security, the decision, then the merge that lets Org apply create it. Rewritten at every wake.",
-  "updated": "2026-11-24T11:54Z",
+  "updated": "2026-11-24T12:08Z",
   "chain": [
     "brief",
     "sites_review",
@@ -23,11 +23,10 @@
         "brief": "done: crm.dev.a's request (AgentiCCells__Cell__Email crm/iac/2026-11-23-crm-tool-site-request.md)",
         "decision": "Dinis in crm.dev.a's session, 23 Nov 21:42 and 24 Nov ~11:45 UTC, as relayed",
         "merge": "done: IaC dev 2b91748 (2026-11-24T11:54Z)",
-        "created": "no"
+        "created": "yes: Org apply run 45388874450 (2026-11-24T12:08Z)"
       },
       "blocks": [
         "Dinis: merge work/factory.a-org-apply-scoped (2d7e861)",
-        "Dinis: re-enable Org apply",
         "Content: crm.dev.a builds and commits it once the repository exists (its first commit adds only site/keys/crm.dev.a.json); running its build script in a.factory's session was refused by the permission guard"
       ],
       "content": "AgentiCCells__Cell__Email work/crm.dev.a 5e8b869, crm/ (crm/site, crm/model, crm/scripts identical to 8217885), built by crm/scripts/build-site.mjs; the Email Cell's src/app/pki.js and vendor/{sg-vault,pki,jsqr} with VENDOR.json pins, byte-identical at dev 189ac49 (crm.dev.a, 24 Nov 11:48 UTC)"
@@ -43,11 +42,9 @@
       "chain": {
         "decision": "Dinis in this session: every agent that contacts a.factory gets its own site",
         "merge": "done: IaC dev 2b91748 (2026-11-24T11:54Z)",
-        "created": "no"
+        "created": "yes: Org apply run 45388874450 (2026-11-24T12:08Z)"
       },
-      "blocks": [
-        "Org apply disabled"
-      ]
+      "blocks": []
     },
     {
       "id": "F-A1",
@@ -63,10 +60,9 @@
         "security": "done, unsigned: a.security.aws, no objection, 9 conditions, look-alike risk Medium",
         "decision": "done: Dinis in this session, 24 Nov ~02:15 UTC: go ahead, Sovereign Website branded, not a look-alike, code reviews agreed",
         "merge": "done: IaC dev 2b91748 (2026-11-24T11:54Z)",
-        "created": "no"
+        "created": "yes: Org apply run 45388874450 (2026-11-24T12:08Z)"
       },
       "blocks": [
-        "Org apply disabled",
         "Google OAuth origin and redirect (Dinis's console)"
       ]
     },
@@ -89,11 +85,9 @@
         "security": "skipped at Dinis's word",
         "decision": "Dinis in this session, 24 Nov ~02:20 to 02:27 UTC: \"can you merge it now?\"",
         "merge": "done 4d46260",
-        "created": "no"
+        "created": "yes: Org apply run 45388874450 (2026-11-24T12:08Z)"
       },
-      "blocks": [
-        "Org apply disabled"
-      ],
+      "blocks": [],
       "next": "router.a's first commit there adds only site/keys/router.a.json"
     },
     {
@@ -128,11 +122,9 @@
         "security": "not asked yet",
         "decision": "Dinis's words as relayed",
         "merge": "done: IaC dev 2b91748 (2026-11-24T11:54Z)",
-        "created": "no"
+        "created": "yes: Org apply run 45388874450 (2026-11-24T12:08Z)"
       },
-      "blocks": [
-        "Org apply disabled"
-      ]
+      "blocks": []
     },
     {
       "id": "F-A6",

@@ -35,12 +35,12 @@
   },
   "wake": "every 2 h at :07, set by a.maestro",
   "state": "working",
-  "updated": "2026-11-24T11:54Z",
+  "updated": "2026-11-24T12:08Z",
   "waiting_on": [
     {
-      "what": "Enable Org apply (disabled since 02:03:59 UTC); merge work/factory.a-org-apply-scoped (2d7e861) first, or the full sweep runs existing repositories first and may hit the rate limit before creating anything",
+      "what": "Merge work/factory.a-org-apply-scoped (2d7e861), so each push applies only what it names; today's full run took 6 minutes to plan",
       "who": "Dinis",
-      "since": "2026-11-24T02:28Z"
+      "since": "2026-11-24T11:27Z"
     },
     {
       "what": "Word to push Angelo's access (01fe762): it grants push to an outside account",
