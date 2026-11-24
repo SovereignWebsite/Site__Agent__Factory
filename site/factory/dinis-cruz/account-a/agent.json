@@ -35,30 +35,20 @@
   },
   "wake": "every 2 h at :07, set by a.maestro",
   "state": "working",
-  "updated": "2026-11-24T11:48Z",
+  "updated": "2026-11-24T11:54Z",
   "waiting_on": [
     {
-      "what": "Site__Tool__CRM, first in the queue: merge 2d7e861, re-enable Org apply, word to push 11fd0a3",
-      "who": "Dinis",
-      "since": "2026-11-24T11:48Z"
-    },
-    {
-      "what": "Org apply is disabled (disabled_manually since 2026-11-24T02:03:59Z); nothing is created or invited until it is on",
+      "what": "Enable Org apply (disabled since 02:03:59 UTC); merge work/factory.a-org-apply-scoped (2d7e861) first, or the full sweep runs existing repositories first and may hit the rate limit before creating anything",
       "who": "Dinis",
       "since": "2026-11-24T02:28Z"
     },
     {
-      "what": "Merge of work/factory.a-org-apply-scoped (ba0d197): a push applies only the repositories it names; full sweep every 6 h",
+      "what": "Word to push Angelo's access (01fe762): it grants push to an outside account",
       "who": "Dinis",
-      "since": "2026-11-24T11:27Z"
+      "since": "2026-11-24T11:54Z"
     },
     {
-      "what": "Word to push the queued requests to dev: Angelo access (01fe762), TauGuard (ee9d010), Gmail (83b63b2)",
-      "who": "Dinis",
-      "since": "2026-11-24T11:31Z"
-    },
-    {
-      "what": "Paths seed/**, build/**, test/** for the provenance seed, or the work to factory.c",
+      "what": "Paths seed/**, build/**, test/** for the provenance seed",
       "who": "Dinis",
       "since": "2026-11-24T00:12Z"
     }
