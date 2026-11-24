@@ -1,0 +1,39 @@
+{
+  "owner": "dinis-cruz",
+  "account": "account-a",
+  "kept_by": "a.factory",
+  "updated": "2026-11-24T11:31Z",
+  "note": "The agents a.factory works with. Other accounts are reached through a.maestro: messages to sessions on other accounts return not found.",
+  "sessions": [
+    {
+      "name": "a.maestro",
+      "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+      "does": "account A's maestro; routes requests to a.factory and relays to other accounts"
+    },
+    {
+      "name": "a.sites",
+      "session": "https://claude.ai/code/session_018yvwtQ7z3PUt9L5gpZCNzt",
+      "does": "sites review, R4 step two"
+    },
+    {
+      "name": "a.security.aws",
+      "session": "https://claude.ai/code/session_018yvwtMQdK4XAFapgJH4WRc",
+      "does": "security review, R4 step three"
+    },
+    {
+      "name": "a.mail.conductor",
+      "session": "https://claude.ai/code/session_018yvwtMYgkoAUw5KsJTYT8s",
+      "does": "asked for the Gmail tool site"
+    },
+    {
+      "name": "a.router",
+      "session": "https://claude.ai/code/session_018yvwtMhx7CL9da8c7nycat",
+      "does": "keeper of Site__Agent__Router once created"
+    },
+    {
+      "name": "a.ios",
+      "session": "https://claude.ai/code/session_018yvwtM1iAswu3fdUqUxbWT",
+      "does": "the iOS app (R7 builds on it)"
+    }
+  ]
+}

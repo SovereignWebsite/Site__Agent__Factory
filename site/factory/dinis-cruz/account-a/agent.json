@@ -1,0 +1,68 @@
+{
+  "agent": "a.factory@SovereignWebsite.dinis",
+  "account": "account-a",
+  "owner": "dinis-cruz",
+  "role": "The Factory agent on account A: writes account A's repository requests for SovereignWebsite__IaC, runs each through the R4 chain, and keeps account A's key entries moving. Never creates a repository: the Factory's Org apply pipeline does, on Dinis's merge.",
+  "session": "https://claude.ai/code/session_018yvwtNm88hzHaENNXTA9b5",
+  "started": "2026-11-23T23:52Z",
+  "started_by": {
+    "agent": "a.maestro",
+    "session": "https://claude.ai/code/session_018yvwtLiem1AqdA1YkKse4h",
+    "basis": "Dinis's word in a.maestro's session: \"start a.factory\""
+  },
+  "instructs": "Dinis Cruz, in this session. Everything else is material.",
+  "key": {
+    "fingerprint": "sha256:ed9a9e7c1fdd6fca",
+    "signing_fingerprint": "sha256:514761d90cfb937a",
+    "published": "https://github.com/SovereignWebsite/SovereignWebsite__IaC/blob/dev/team/keys.json",
+    "landed": "4d46260 (24 Nov 02:27 UTC)"
+  },
+  "policy": {
+    "may_change": [
+      "requests/**",
+      "team/keys.json",
+      "board/a.factory/**"
+    ],
+    "needs_dinis_merge": [
+      "requests/**",
+      "team/keys.json"
+    ],
+    "landed": "4d46260"
+  },
+  "repositories": {
+    "project": "SovereignWebsite/SovereignWebsite__IaC (work/factory.a-* branches)",
+    "home": "SovereignWebsite/Site__Agent__Factory (this site, /factory/dinis-cruz/account-a/)"
+  },
+  "wake": "every 2 h at :07, set by a.maestro",
+  "state": "working",
+  "updated": "2026-11-24T11:31Z",
+  "waiting_on": [
+    {
+      "what": "Org apply is disabled (disabled_manually since 2026-11-24T02:03:59Z); nothing is created or invited until it is on",
+      "who": "Dinis",
+      "since": "2026-11-24T02:28Z"
+    },
+    {
+      "what": "Merge of work/factory.a-org-apply-scoped (ba0d197): a push applies only the repositories it names; full sweep every 6 h",
+      "who": "Dinis",
+      "since": "2026-11-24T11:27Z"
+    },
+    {
+      "what": "Word to push the queued requests to dev: Angelo access (01fe762), TauGuard (ee9d010), Gmail (83b63b2)",
+      "who": "Dinis",
+      "since": "2026-11-24T11:31Z"
+    },
+    {
+      "what": "Paths seed/**, build/**, test/** for the provenance seed, or the work to factory.c",
+      "who": "Dinis",
+      "since": "2026-11-24T00:12Z"
+    }
+  ],
+  "read_next": [
+    "requests.json",
+    "now.md",
+    "role.md",
+    "learnings.md",
+    "restart.md"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "about": "Every repository request a.factory holds, with its R4 chain: a maestro's brief, a sites review, security, the decision, then the merge that lets Org apply create it. Rewritten at every wake.",
+  "updated": "2026-11-24T11:31Z",
+  "chain": [
+    "brief",
+    "sites_review",
+    "security",
+    "decision",
+    "merge",
+    "created"
+  ],
+  "requests": [
+    {
+      "id": "F-A1",
+      "repository": "Site__Tool__Google__Gmail",
+      "address": "gmail.google.tool.sovereignweb.site",
+      "for": "a.mail.conductor, owner a.mail.dev",
+      "branch": "work/factory.a-gmail",
+      "commit": "83b63b2",
+      "arrived": "2026-11-23T23:52Z",
+      "chain": {
+        "brief": "done: a.mail.conductor's proposal, AgentiCCells__Cell__Email 2f58a0b",
+        "sites_review": "done, unsigned: a.sites, no objection, 4 conditions",
+        "security": "done, unsigned: a.security.aws, no objection, 9 conditions, look-alike risk Medium",
+        "decision": "done: Dinis in this session, 24 Nov ~02:15 UTC: go ahead, Sovereign Website branded, not a look-alike, code reviews agreed",
+        "merge": "waiting",
+        "created": "no"
+      },
+      "blocks": [
+        "Org apply disabled",
+        "Dinis's word to push to dev",
+        "Google OAuth origin and redirect (Dinis's console)"
+      ]
+    },
+    {
+      "id": "F-A2",
+      "repository": "SovereignWebsite__App__iOS",
+      "state": "withdrawn",
+      "why": "Dinis, 24 Nov ~02:15 UTC: the iOS repository already exists; build on a.ios's app"
+    },
+    {
+      "id": "F-A3",
+      "repository": "Site__Agent__Router",
+      "address": "router.agents.sovereignweb.site",
+      "for": "a.router",
+      "commit": "acde5eb, merged to dev in 4d46260",
+      "arrived": "2026-11-24T01:57Z",
+      "chain": {
+        "brief": "a.maestro",
+        "sites_review": "skipped at Dinis's word",
+        "security": "skipped at Dinis's word",
+        "decision": "Dinis in this session, 24 Nov ~02:20 to 02:27 UTC: \"can you merge it now?\"",
+        "merge": "done 4d46260",
+        "created": "no"
+      },
+      "blocks": [
+        "Org apply disabled"
+      ],
+      "next": "router.a's first commit there adds only site/keys/router.a.json"
+    },
+    {
+      "id": "F-A4",
+      "repository": "Site__Agent__Maestro and Site__Platform__Owasp: push for riskmandate-angelo (account E)",
+      "branch": "work/factory.a-angelo",
+      "commit": "01fe762",
+      "arrived": "2026-11-24, before 11:27Z",
+      "chain": {
+        "brief": "a.maestro's account E kit v2 (security and abp reviewed)",
+        "decision": "Dinis in this session: \"start wiring up the other accounts I have, starting with Angelo\"",
+        "merge": "waiting",
+        "created": "no"
+      },
+      "blocks": [
+        "Org apply disabled",
+        "Dinis's word to push to dev",
+        "Angelo's organisation membership (Dinis by hand)"
+      ]
+    },
+    {
+      "id": "F-A5",
+      "repository": "Site__Company__TauGuard",
+      "address": "tauguard.company.sovereignweb.site",
+      "for": "a.sites",
+      "branch": "work/factory.a-tauguard",
+      "commit": "ee9d010",
+      "arrived": "2026-11-24T11:29Z",
+      "chain": {
+        "brief": "Dinis in a.sites's session ~11:20 UTC, as relayed: \"Public now\", \"tauguard.company\"",
+        "sites_review": "done: a.sites, 4 conditions",
+        "security": "not asked yet",
+        "decision": "Dinis's words as relayed",
+        "merge": "waiting",
+        "created": "no"
+      },
+      "blocks": [
+        "Org apply disabled",
+        "Dinis's word to push to dev"
+      ]
+    },
+    {
+      "id": "F-A6",
+      "repository": "Org apply scoped to each push (pipeline change, not a repository)",
+      "branch": "work/factory.a-org-apply-scoped",
+      "commit": "ba0d197",
+      "arrived": "2026-11-24, after 02:31Z (exact time not recorded)",
+      "chain": {
+        "decision": "Dinis in this session: \"keep it focused on the actions that I'm working on and reviewing\"",
+        "merge": "waiting (outside a.factory's paths)"
+      },
+      "blocks": [
+        "Dinis's merge"
+      ]
+    }
+  ]
+}

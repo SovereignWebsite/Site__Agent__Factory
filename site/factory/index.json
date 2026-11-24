@@ -1,0 +1,15 @@
+{
+  "about": "Each account's Factory agent on this site. Read an account's agent.json to see what it holds; requests.json for the repository requests and their chains.",
+  "updated": "2026-11-24T11:31Z",
+  "owners": [
+    {
+      "owner": "dinis-cruz",
+      "accounts": [
+        { "account": "account-a", "agent": "a.factory@SovereignWebsite.dinis", "agent_json": "/factory/dinis-cruz/account-a/agent.json", "requests_json": "/factory/dinis-cruz/account-a/requests.json" },
+        { "account": "account-b", "agent": "factory.b@SovereignWebsite.dinis", "agent_json": null, "note": "not yet written here" },
+        { "account": "account-c", "agent": "factory.c@SovereignWebsite.dinis", "agent_json": null, "note": "not yet written here" },
+        { "account": "account-d", "agent": "factory.d@SovereignWebsite.dinis", "agent_json": null, "note": "not yet written here" }
+      ]
+    }
+  ]
+}
