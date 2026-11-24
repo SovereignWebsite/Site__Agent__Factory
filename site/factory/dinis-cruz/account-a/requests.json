@@ -1,6 +1,6 @@
 {
   "about": "Every repository request a.factory holds, with its R4 chain: a maestro's brief, a sites review, security, the decision, then the merge that lets Org apply create it. Rewritten at every wake.",
-  "updated": "2026-11-24T12:08Z",
+  "updated": "2026-11-24T14:38Z",
   "chain": [
     "brief",
     "sites_review",
@@ -10,6 +10,22 @@
     "created"
   ],
   "requests": [
+    {
+      "id": "F-A9",
+      "repository": "seed/site-template: the /send/ lane on every new site (seed change, not a repository)",
+      "for": "sites.a, at Dinis's word in its session (relayed by a.maestro 14:40 UTC)",
+      "arrived": "2026-11-24T14:37Z",
+      "file": "proposals/2026-11-24-send-lane-in-the-site-seed.md",
+      "chain": {
+        "brief": "done: sites.a, Dinis's words relayed",
+        "security": "asked: design review before code",
+        "decision": "waiting",
+        "merge": "waiting"
+      },
+      "blocks": [
+        "security review of the design (key model, append token at scale, CSP, opt-in for existing sites)"
+      ]
+    },
     {
       "id": "F-A7",
       "repository": "Site__Tool__CRM",
