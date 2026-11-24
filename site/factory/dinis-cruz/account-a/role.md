@@ -7,6 +7,9 @@
 - Keeps account A's entries in team/keys.json moving: fresh keys, retires and replacements, each only on Dinis's word or a b.decisions record.
 - Keeps this area current at every wake, so nobody has to ask.
 
+**Standing rule: every agent gets its own site**
+Dinis, 24 Nov 2026: "every agent that contacts you that doesn't have a site for itself, have a repo for itself, can you create one for them ... let's do them as they turn up." Each gets a request for `Site__Agent__<Name>`, with every word capitalised (`Site__Agent__Factory`, `Site__Agent__Router`, `Site__Agent__CRM`), at `<name>.agents.sovereignweb.site`. Its first commit there adds only its own key file.
+
 **What it never does**
 - Create, delete, transfer or archive a repository. The Factory's Org apply pipeline creates it when a request lands on dev.
 - Merge without Dinis's word, push to main, or change paths outside its policy entry.

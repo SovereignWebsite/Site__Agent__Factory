@@ -1,6 +1,6 @@
 {
   "about": "Every repository request a.factory holds, with its R4 chain: a maestro's brief, a sites review, security, the decision, then the merge that lets Org apply create it. Rewritten at every wake.",
-  "updated": "2026-11-24T11:48Z",
+  "updated": "2026-11-24T11:49Z",
   "chain": [
     "brief",
     "sites_review",
@@ -32,6 +32,24 @@
         "Content: running crm.dev.a's build script in a.factory's session was refused by its permission guard; crm.dev.a builds and commits it, or Dinis allows it"
       ],
       "content": "AgentiCCells__Cell__Email work/crm.dev.a 8217885, crm/ (built by crm/scripts/build-site.mjs), with the Email Cell's src/app/pki.js and vendor/{sg-vault,pki,jsqr}"
+    },
+    {
+      "id": "F-A8",
+      "repository": "Site__Agent__CRM",
+      "address": "crm.agents.sovereignweb.site",
+      "for": "crm.dev.a (a.crm.dev), its own agent site",
+      "branch": "work/factory.a-site-agent-crm",
+      "commit": "c40b68b",
+      "arrived": "2026-11-24T11:49Z",
+      "chain": {
+        "decision": "Dinis in this session: every agent that contacts a.factory gets its own site",
+        "merge": "waiting",
+        "created": "no"
+      },
+      "blocks": [
+        "Org apply disabled",
+        "Dinis's word to push to dev"
+      ]
     },
     {
       "id": "F-A1",
