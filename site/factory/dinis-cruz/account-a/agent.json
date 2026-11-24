@@ -35,8 +35,13 @@
   },
   "wake": "every 2 h at :07, set by a.maestro",
   "state": "working",
-  "updated": "2026-11-24T11:31Z",
+  "updated": "2026-11-24T11:48Z",
   "waiting_on": [
+    {
+      "what": "Site__Tool__CRM, first in the queue: merge 2d7e861, re-enable Org apply, word to push 11fd0a3",
+      "who": "Dinis",
+      "since": "2026-11-24T11:48Z"
+    },
     {
       "what": "Org apply is disabled (disabled_manually since 2026-11-24T02:03:59Z); nothing is created or invited until it is on",
       "who": "Dinis",
